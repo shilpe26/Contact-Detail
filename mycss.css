@@ -303,30 +303,3 @@ margin:0;
     font-size: 16px;
 }
 
-@media all and (max-width: 500px) {
-  .card-list {
-    /* On small screens, we are no longer using row direction but column */
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 800px) {
-  .resp {
-    grid-template-columns: auto;
-    grid-template-columns: auto;
-    margin: 10px auto;
-    width: 100%;
-  }
-}
-
-@media (min-width: 600px) {
-  .resp {
-    height: 350px;
-  }
-}
-
-@media (hover: hover) and (min-width: 600px) {
-  .resp:after {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
